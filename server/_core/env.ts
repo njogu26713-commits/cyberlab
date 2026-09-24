@@ -7,4 +7,7 @@ export const ENV = {
   isProduction: process.env.NODE_ENV === "production",
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
+  computeProvider: process.env.COMPUTE_PROVIDER ?? "azure-vps",
+  azureVpsHost: process.env.AZURE_VPS_HOST ?? "",
+  azureVpsSshSecret: process.env.AZURE_VPS_SSH_SECRET ?? "",
 };
